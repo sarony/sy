@@ -12,14 +12,20 @@ a {
   &:hover { color: white; }
 }
 
-h1, h2, h3, h4, h5, li, p {
+h1, h2, h3, h4, h5 {
   color: white; 
   font-family: "Lato", "san serif";
 }
 
 p {
+  color: white;
   font-family: "Helvetica";
   margin: 0px;
+}
+
+li {
+  color: white;
+  font-family: "Helvetica";
 }
 
 header {
