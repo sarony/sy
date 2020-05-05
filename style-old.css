@@ -1,28 +1,30 @@
 body {
+  background: black;
   padding-bottom: 100px; }
 
 a {
-  color: black;
-  font-weight: 500; }
+  color: #a9c6fa; }
   a:hover {
-    color: gray; }
+    color: white; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Open Sans", "san serif"; }
+  color: white;
+  font-family: "Lato", "san serif"; }
 
 p {
-  font-family: "Open Sans", "san serif";
+  color: white;
+  font-family: "Helvetica";
   margin: 0px; }
 
 li {
-  color: black;
-  font-family: "Open Sans", "san serif"; }
+  color: white;
+  font-family: "Helvetica"; }
 
 header {
   display: grid;
   grid-template-columns: 1fr 300px;
   grid-gap: 50px;
-  padding: 100px 0px; }
+  padding: 50px 0px; }
   @media only screen and (max-width: 700px) {
     header {
       display: block; } }
@@ -32,25 +34,22 @@ header {
     text-align: center; } }
 
 .cta__newsletter {
-  color: black;
+  color: white;
+  font-weight: 900;
   text-decoration: underline; }
   .cta__newsletter:hover .newsletter {
-    background: white; }
-
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  grid-gap: 20px; }
+    background: #f32192; }
 
 .header--description {
   font-size: 22px;
   font-weight: 100; }
 
 .headshot--image {
-  width: 200px; }
+  width: 300px; }
 
-.headshot, .newsletter {
-  border: 5px solid lightgray;
+.newsletter {
+  background: black;
+  border: 5px solid white;
   border-radius: 15px;
   padding: 50px; }
 
@@ -58,7 +57,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
-  border: 5px solid lightgray;
+  border: 5px solid white;
   border-radius: 15px;
   margin-bottom: 30px;
   padding: 50px; }
@@ -78,8 +77,9 @@ header {
   width: 100%; }
 
 .saron--name {
-  border-bottom: 20px solid black;
+  border-bottom: 20px solid lime;
   display: inline-block;
+  font-family: "Montserrat", "san serif";
   font-size: 80px;
   font-weight: 900;
   margin-bottom: 25px;
@@ -87,6 +87,7 @@ header {
   text-transform: uppercase; }
 
 .section--header {
+  font-family: "Montserrat", "san serif";
   font-size: 28px;
   font-weight: 900;
   margin-bottom: 10px;
@@ -94,7 +95,8 @@ header {
   text-transform: uppercase; }
 
 .speaking {
-  border: 5px solid lightgray;
+  background: black;
+  border: 5px solid white;
   border-radius: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -114,7 +116,7 @@ header {
 
 .social-media {
   background: white;
-  border: 5px solid lightgray;
+  border: 5px solid black;
   border-radius: 50%;
   height: 25px;
   padding: 10px;
